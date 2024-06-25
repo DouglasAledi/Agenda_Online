@@ -1,0 +1,97 @@
+@import url(style.css);
+.consulta{
+  display: flex;
+  align-items: start;
+}
+
+.consulta-dia{
+  padding: 0.5em 0 0.5em 1em;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--cor-preta-fonte);
+}
+
+.container{
+  border: 1em solid var(--cor-cinza-fundo);
+}
+
+.container-consulta{
+  background: var(--cor-branca-fundo);
+  border-radius: 8px;
+}
+
+.container-consulta-parte-1{
+  display: flex;
+  padding: 1em 0 1.3em 1em;
+}
+
+.container-consulta-infos-1{
+  padding-left: 1em;
+  padding-right: 5em;
+}
+
+.container-consulta-nome{
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--cor-preta-fonte);
+}
+
+.container-consulta-infos-1-chat{
+  padding-right: 1em;
+}
+
+.container-separacao{
+  border: 1px solid var(--cor-preta-fonte);
+  opacity: 10%;
+}
+
+.container-consulta-horario{
+  color: var(--cor-preta-fonte);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+.container-consulta-infos-2{
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-botao-1{
+  color: var(--cor-branca-fundo);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+
+  background: var(--cor-laranja-fundo);
+  padding: 0.8em 1em;
+  border-radius: 8px;
+}
+
+.container-botao-2{
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: var(--cor-preta-fonte);
+
+  padding: 0.8em 1em;
+  border: 1px solid var(--cor-cinza-fundo);
+  border-radius: 8px;
+}
+
+.consulta-agendada{
+  padding-top: 1em;
+}
+
+.container-botao-3{
+  color: var(--cor-branca-fonte);
+  background: var(--cor-azul-fundo);
+
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  
+  border-radius: 8px;
+  padding: 1em 7.5em;
+}

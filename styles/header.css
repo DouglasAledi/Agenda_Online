@@ -1,0 +1,27 @@
+@import url(style.css);
+
+.cabecalho{
+  padding: 2em 7.5em 1.3em 1em;
+}
+
+.cabecalho-conteudo{
+  display: flex;
+  align-items: start;
+}
+
+.cabecalho-conteudo-texto{
+  padding-left: 1em;
+}
+
+.cabecalho-conteudo-texto__titulo{
+  color: var(--cor-preta-fonte);
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 0.5em;
+}
+
+.cabecalho-conteudo-texto__subtitulo{
+  color: var(--cor-cinza-fonte);
+  font-size: 14px;
+  font-weight: 400;
+}
