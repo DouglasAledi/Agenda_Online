@@ -1,0 +1,50 @@
+@import url(style.css);
+
+.icone__maisicone{
+  background: var(--cor-azul-fundo);
+  padding: 1.7em 1.7em;
+  border-radius: 60px;
+  box-shadow:0 0 50px #4894FF80;
+  position: fixed;
+  bottom: 5.2em;
+  right: 2em;
+}
+
+.barra-icones{
+  position: fixed;
+  bottom: 0%;
+  width: 86%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 1.5em;
+  padding-right: 1.75em;
+  align-items: center;
+  text-align: center;
+  background: var(--cor-branca-fundo);
+  border-radius: 12px 12px 0 0;
+}
+
+.barra-icones__consultas, .barra-icones__clientes, .barra-icones__relatorio, .barra-icones__menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icone{
+  max-width: 20px;
+  max-height: 20px;
+  width: auto;
+  height: auto;
+}
+
+.barra-icone{
+  padding: 0.5em 0 0.5em 1em;
+  align-items: center;
+}
+
+.barra-icones__link{
+  padding-top: 0.3em;
+  text-decoration: none;
+  color: var(--cor-preta-fonte);
+  font-size: 12px;
+}
