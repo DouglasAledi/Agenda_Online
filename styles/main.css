@@ -13,11 +13,15 @@
 
 .container{
   border: 1em solid var(--cor-cinza-fundo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-consulta{
   background: var(--cor-branca-fundo);
   border-radius: 8px;
+  max-width: 340px;
 }
 
 .container-consulta-parte-1{
