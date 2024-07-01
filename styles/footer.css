@@ -48,3 +48,38 @@
   color: var(--cor-preta-fonte);
   font-size: 12px;
 }
+
+@media screen and (min-width: 1280px){
+  .barra-icones{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 12%;
+    padding: 20px 0 575px 0;
+    border-radius: 0;
+
+  }
+
+  .barra-icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .barra-icones__link{
+    font-size: 15px;
+    padding-right: 1em;
+  }
+
+  .barra-icones__link:hover{
+    color: var(--cor-azul-fundo);
+    font-weight: 700;
+  }
+
+  .icone__maisicone{
+    position: fixed;
+    bottom: 2em;
+  }
+}

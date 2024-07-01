@@ -25,3 +25,10 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media screen and (min-width: 1280px){
+  .cabecalho{
+    padding-left: 12em;
+  }
+
+}
