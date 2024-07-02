@@ -49,6 +49,10 @@
   font-size: 12px;
 }
 
+form.formulario{
+  display: none;
+}
+
 @media screen and (min-width: 1280px){
   .barra-icones{
     display: grid;
@@ -79,7 +83,53 @@
   }
 
   .icone__maisicone{
-    position: fixed;
-    bottom: 2em;
+    display: none;
+  }
+  
+  form.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0 2em 0;
+  }
+
+  .formulario-inputs{
+    background: var(--cor-branca-fundo);
+    padding: 2em 10em 2em 10em;
+    border-radius: 8px;
+  }
+
+  .formulario-nome-paciente, .formulario-tipo-consulta, .formulario-data-consulta, .formulario-horario-consulta, .formulario-observacoes-consulta, .formulario-envio-consulta{
+    padding-bottom: 1em;
+  }
+
+  #formulario-nome-paciente__registro, #formulario-tipo-consulta__registro, #formulario-data-consulta__registro, #formulario-horario-consulta__registro, #formulario-observacoes-consulta__registro, #formulario-envio-consulta__registro{
+    text-align: center;
+  }
+
+  #formulario-envio-consulta__registro{
+    font-weight: 600;
+  }
+
+  .texto{
+    padding-left: 2.5em;
+  }
+
+  .horario{
+    padding-left: 4.5em;
+    padding-right: 2.5em;
+  }
+
+  .formulario-envio-consulta__registro{
+    padding: 1em 4.5em 1em 4.5em;
+    border-radius: 8px;
+  }
+
+  input:invalid{
+    border: 2px solid red;
+  }
+
+  input:valid{
+    border: 2px solid black;
   }
 }
